@@ -73,7 +73,7 @@ int main(){
             if(input == 1){
                 getuserinput(firstname, secondname);
                 cout << endl;
-                double calculatelove = calculate(firstname, secondname);
+                int calculatelove = calculate(firstname, secondname);
                 if(calculatelove>100){
                     calculatelove = 100;
                     calculating(calculatelove);
